@@ -12,7 +12,7 @@ app.use("/api", router);
 
 mongoose
   .connect(
-    "mongodb+srv://Miten:MiHaKrRa88@projects.hpzcfyg.mongodb.net/auth?retryWrites=true&w=majority"
+    "mongodb+srv://Miten:@projects.hpzcfyg.mongodb.net/auth?retryWrites=true&w=majority"
   )
   .then(() => {
     app.listen(5000);
